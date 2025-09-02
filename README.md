@@ -47,7 +47,7 @@
 ## 🏗️ Architecture
 
 ```
-movie-app/
+movie-flix/
 ├── app/                    # App screens and navigation
 │   ├── (tabs)/            # Tab-based navigation
 │   │   ├── index.tsx      # Home/Trending screen
@@ -85,7 +85,7 @@ movie-app/
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/mr-isik/movie-app.git
+   git clone https://github.com/mr-isik/movie-flix.git
    cd movie-app
    ```
 
