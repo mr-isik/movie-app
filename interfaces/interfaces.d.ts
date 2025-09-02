@@ -71,6 +71,21 @@ interface MovieDetails {
   vote_count: number;
 }
 
+interface SavedMovie {
+  $id: number;
+  movie_id: number;
+  title: string;
+  poster_url: string;
+  overview: string;
+  release_date: string;
+  runtime: number | null;
+  vote_average: number;
+  vote_count: number;
+  genres: string[];
+  budget: number;
+  revenue: number;
+}
+
 interface TrendingCardProps {
   movie: TrendingMovie;
   index: number;

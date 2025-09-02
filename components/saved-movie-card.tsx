@@ -3,22 +3,20 @@ import { Link } from "expo-router";
 import React from "react";
 import { Image, Text, TouchableOpacity, View } from "react-native";
 
-const MovieCard = ({
-  id,
-  poster_path,
+const SavedMovieCard = ({
+  movie_id,
+  poster_url,
   title,
   vote_average,
   release_date,
-}: Movie) => {
+}: SavedMovie) => {
   return (
     /* @ts-ignore */
-    <Link href={`/movies/${id}`} asChild>
+    <Link href={`/movies/${movie_id}`} asChild>
       <TouchableOpacity className="w-[30%]">
         <Image
           source={{
-            uri: poster_path
-              ? `https://image.tmdb.org/t/p/w500${poster_path}`
-              : "https://placehol.co/600x400/1a1a1a/ffffff.png",
+            uri: poster_url,
           }}
           className="w-full h-52 rounded-lg"
         />
@@ -47,4 +45,4 @@ const MovieCard = ({
   );
 };
 
-export default MovieCard;
+export default SavedMovieCard;

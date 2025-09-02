@@ -88,16 +88,6 @@ const _layout = () => {
           ),
         }}
       />
-      <Tabs.Screen
-        name="profile"
-        options={{
-          headerShown: false,
-          title: "Profile",
-          tabBarIcon: ({ focused }) => (
-            <TabIcon focused={focused} icon={icons.person} title="Profile" />
-          ),
-        }}
-      />
     </Tabs>
   );
 };
