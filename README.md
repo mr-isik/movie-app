@@ -86,7 +86,7 @@ movie-flix/
 
    ```bash
    git clone https://github.com/mr-isik/movie-flix.git
-   cd movie-app
+   cd movie-flix
    ```
 
 2. **Install dependencies**
@@ -217,7 +217,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Ömer Faruk Işık** - [@mr-isik](https://github.com/mr-isik)
 
-Project Link: [https://github.com/mr-isik/movie-app](https://github.com/mr-isik/movie-flix)
+Project Link: [https://github.com/mr-isik/movie-flix](https://github.com/mr-isik/movie-flix)
 
 ---
 
